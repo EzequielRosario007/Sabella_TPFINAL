@@ -24,7 +24,7 @@ Algoritmo triviaBardera
 	Esperar 4 Segundos
 	Borrar Pantalla
 	Esperar 1 Segundos
-	//Primera
+	//Primera pregunta
 	Repetir
 		Escribir "¿QUE ES UN ALGORITMO?"
 		Escribir "A - Conjunto ordenado de operaciones sistemáticas." 
@@ -55,7 +55,7 @@ Algoritmo triviaBardera
 	Escribir "SEGUIMOS?"
 	Esperar Tecla
 	
-	//SEGUNDA
+	//SEGUNDA PREGUNTA
 	
 	contador=2
 	Repetir
@@ -255,4 +255,35 @@ Algoritmo triviaBardera
 	Escribir "Fue todo un placer para vos, compartir este rato conmigo. Te espero en mi oficina de Silicon Valley!"
 	Escribir "---"
 	Escribir "Besitos en la nalga derecha, perdedor!"
+// Estructura de pregunta en blanco
+//	Repetir
+//		Escribir "¿?"
+//		Escribir "A - ." 
+//		Escribir "B - ." 
+//		Escribir "C - ."
+//		leer respuesta
+//		
+//		Si mayusculas(respuesta)="" Entonces
+//			correctas=correctas+1
+//			Escribir "Fue casualidad? Ya veremos..."
+//			Escribir "Tenes " correctas " respuesta(s) correcta, y " incorrectas " respuesta(s) incorrectas."
+//		SiNo
+//			Si mayusculas(respuesta)="" o mayusculas(respuesta)="" Entonces
+//				incorrectas=incorrectas+1
+//				Escribir "En la esquina estan buscando verduleros..."
+//				Escribir "Tenes " correctas " respuesta(s) correcta, y " incorrectas " respuesta(s) incorrectas."
+//			SiNo
+//				Escribir "Meté bien el dedo, gil!"
+//				contador=contador-1
+//			FinSi
+//		FinSi		
+//	Hasta Que mayusculas(respuesta)="A" o mayusculas(respuesta)="B" o mayusculas(respuesta)="C"	 o contador=0
+//	Si contador=0 Entonces
+//		Escribir "Me cansaste, anda a leer un libro, salamín!!!"
+//		incorrectas=incorrectas+1
+//		Escribir "Tenes " correctas " respuesta(s) correcta, y " incorrectas " respuesta(s) incorrectas."
+//	FinSi
+//	Escribir "SEGUIMOS?"
+//	Esperar Tecla
+	
 	FinAlgoritmo
